@@ -20,3 +20,4 @@ while index_slot1 < len(slots1) and index_slot2 < len(slots2):
         index_slot2 = index_slot2 + 1
 else:
     print("No common slot found.")
+

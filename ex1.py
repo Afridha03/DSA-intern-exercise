@@ -12,4 +12,3 @@ while(index<len(arr)):
     arr[index:end] = sub_array
     index = index + size
 print(arr)
-    
