@@ -1,3 +1,4 @@
+#reverse the array using consecutive k integer
 arr=[]
 for index in range(1,10):
     element = int(input("enter element no"+str(index)+":"))
