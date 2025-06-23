@@ -23,4 +23,4 @@ for i in range(cols):
 
 print("\nRotated Matrix (90 degrees clockwise):")
 for row in rotated_matrix:
-    print(row)
+    print(row) 
