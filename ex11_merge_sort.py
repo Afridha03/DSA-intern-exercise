@@ -34,10 +34,10 @@ def merge_sort(arr):
     return merge(left_half, right_half)
 
 
-n = int(input("Enter number of elements: "))
+n = int(input("Enter number of elements: ")) #size of the array
 arr = []
 print("Enter the elements:")
-for i in range(n):
+for i in range(n): 
     arr.append(int(input()))
 
 

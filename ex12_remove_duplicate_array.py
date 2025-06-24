@@ -1,17 +1,17 @@
-n = int(input("Enter number of elements: "))
+num = int(input("Enter number of elements: "))
 arr = []
-print("Enter the elements (in sorted order):")
-for i in range(n):
+print("Enter the elements :")
+for elem in range(num):
     arr.append(int(input()))
 
 
-if n == 0:
+if num == 0:
     print("Empty array.")
 else:
     unique = [arr[0]]  
-    for i in range(1, n):
-        if arr[i] != arr[i - 1]:  
-            unique.append(arr[i])
+    for elem in range(1, num):
+        if arr[elem] != arr[elem - 1]:  
+            unique.append(arr[elem])
 
     print("Array after removing duplicates:")
     print(unique)
