@@ -15,7 +15,7 @@ while index_slot1 < len(slots1) and index_slot2 < len(slots2):
         break
     
     if slots1[index_slot1][1] < slots2[index_slot2][1]:
-        index_slot1 = index_slot + 1
+        index_slot1 = index_slot1 + 1
     else:
         index_slot2 = index_slot2 + 1
 else:

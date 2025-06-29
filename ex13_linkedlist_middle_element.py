@@ -5,7 +5,7 @@ head = LinkedList_Creation.create_Linked_List()
 LinkedList_Creation.print_linked_list(head)
 
 def finding_middle_element(head):
-    slow_pointer = head
+    slow_pointer = head          #2 pointers created
     fast_pointer = head
     while fast_pointer and fast_pointer.next:
         slow_pointer = slow_pointer.next
